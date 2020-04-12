@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.6;
+  background: #dddddd;
+  color: #333333;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+}
+
+.container {
+  padding: 5rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container header {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.restart-btn {
+  outline: none;
+  border: none;
+  width: 14rem;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background: #d89fed;
+  cursor: pointer;
+  color: white;
+  margin: 3rem;
+}
+
+.restart-btn:hover {
+  background-color: red;
+  color: white;
+  transition: 0.4s ease-in;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+.score {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.score p:first-child {
+  background-color: #27122e;
+  border-radius: 10px;
+  padding: 6px;
+  color: whitesmoke;
+}
+.score p:last-child {
+  padding: 6px;
+  background-color: #b3b3b3;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1.4rem;
+}
+
+.inner-container i {
+  font-size: 5rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.inner-container i:hover {
+  color: #b3b3b3;
+}
